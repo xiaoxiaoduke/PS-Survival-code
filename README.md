@@ -1,7 +1,26 @@
-# PS-Survival-code
-Demo code  for paper "Implementing the principal stratum strategy for intercurrent events with survival outcomes: a tutorial"
+# PS-Survival-Code
 
-Simulation util.R: function used by simulation
-generate_data.R: generate the data 
-example.R: (1) Code for the mixture modeling approach using R package PStrata; 
-            (2)Code for the weighting approach using R package mrPStrata
+Demo code for the paper:
+> "Implementing the principal stratum strategy for intercurrent events with survival outcomes: a tutorial"
+
+## File Description
+
+| File | Description |
+|------|-------------|
+| `util.R` | Helper functions used by the simulation |
+| `generate_data.R` | Generates synthetic data for use in `example.R` |
+| `example.R` | (1) Mixture modeling approach via R package `PStrata`; (2) Weighting approach via R package `mrPStrata` |
+
+## Usage
+
+Run scripts in this order:
+1. `generate_data.R`
+2. `example.R` (sources `util.R` automatically)
+
+## Requirements
+
+- R (≥ 4.0)
+- Packages: `PStrata`, `mrPStrata`, `survival`, `tidyverse`
+
+## Citation
+
