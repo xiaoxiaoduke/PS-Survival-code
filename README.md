@@ -14,8 +14,8 @@ Demo code for the paper:
 ## Usage
 
 Run scripts in this order:
-1. `generate_data.R`
-2. `example.R` (sources `util.R` automatically)
+1. `generate_data.R` (sources `util.R` automatically)
+2. `example.R` 
 
 ## Requirements
 
