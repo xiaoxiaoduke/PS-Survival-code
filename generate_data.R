@@ -1,6 +1,6 @@
 # Load necessary libraries
 library(dplyr)
-source("Simulation util.R")
+source("util.R")
 
 # Set seed for reproducibility
 set.seed(123)
